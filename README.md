@@ -4,7 +4,7 @@
 
 
 
-This is the PyTorch implementation of **"Modeling Financial Time Series using LSTM with Trainable Initial Hidden States"**. 
+This is the PyTorch implementation of **"Modeling Financial Time Series using LSTM with Trainable Initial Hidden States"** [[arXiv]](https://arxiv.org/abs/2007.06848). 
 
 
 
@@ -65,7 +65,7 @@ In each directory, stock prices are stored as a separate file for each company. 
 
 ![Architecture](figure/model.png)
 
-In this model, the initial (t=0) hidden states of LSTM `h0`are trained separately for each sequence. The model can reconstruct different sequences from the different initial hidden states without any external input. Consequently, the initial hidden states play a key role in capturing differences between the time series data.  For details on the model and data, please see "**Modeling Financial Time Series using LSTM with Trainable Initial Hidden States**".
+In this model, the initial (t=0) hidden states of LSTM `h0`are trained separately for each sequence. The model can reconstruct different sequences from the different initial hidden states without any external input. Consequently, the initial hidden states play a key role in capturing differences between the time series data.  For details on the model and data, please see "[**Modeling Financial Time Series using LSTM with Trainable Initial Hidden States**](https://arxiv.org/abs/2007.06848)".
 
 
 
@@ -77,7 +77,7 @@ If you find this code useful, please consider citing our work:
 @inproceedings{hwang2020modeling,
 Author = {Hwang, Jungsik},
 Title = {Modeling Financial Time Series using LSTM with Trainable Initial Hidden States},
-Booktitle  = {arXiv preprint arXiv:},
+Booktitle  = {arXiv preprint arXiv:2007.06848},
 Year = {2020}
 }
 ```
